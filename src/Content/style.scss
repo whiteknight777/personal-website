@@ -1,0 +1,15 @@
+// Main content CSS
+.Content{
+  position: relative;
+  left: 100px;
+  width: calc(100% - 100px);
+}
+
+.BackDrow{
+  width: calc(100vw - 100px);
+  height: 100vh;
+  background: #00000047;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

@@ -1,0 +1,63 @@
+// Left bolck CSS & Sidebar CSS
+.MainMenu{
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    .LeftBlock{
+      background: linear-gradient(108deg, #9f24fc 22%, #8715f1 100%); //#6b05be
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      flex-flow: column;
+      .Logo{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        img{
+          width: 100px;
+          height: 60px;
+        }
+        .Menu-icon{
+          color: white;
+          width: 50px;
+        }
+      }
+      .Social-link{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        height: 150px;
+        align-items: center;
+        .social-icon{
+          font-size: 1.2rem;
+          color: white;
+        }
+      }
+    }
+}
+
+.SidebarMenu{
+  width: calc(30% - 100px);
+  height: 100vh;
+  position: fixed;
+  background: #801bdd;
+  color: white;
+  left: 100px;
+  z-index: 2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
